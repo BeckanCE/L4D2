@@ -1,0 +1,27 @@
+"Phrases"
+{
+    "HealthLimitReached"
+    {
+        "es"    "Has alcanzado el límite de salud."
+    }
+    "Health"
+    {
+        "es"    "Bonus de salud: [{blue}+%d{default}] Permanente y [{blue}+%d{default}] Temporal"
+    }
+    "Incapacitated"
+    {
+        "es"    "Un {red}incapacitado{default} hará reaparecer {red}%d{default} witch"
+    }
+    "AllWitchesKilled"
+    {
+        "es"    "Todas las witch han sido eliminadas."
+    }
+    "WitchSpawned"
+    {
+        "es"    "Una witch ha aparecido."
+    }
+    "TankSpawned"
+    {
+        "es"    "Un tank ha aparecido, {red}matando a todas las witch{default}."
+    }
+}

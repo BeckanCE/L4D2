@@ -1,0 +1,1372 @@
+"Missions"
+{
+	"List"
+	{
+		"DLC"
+		{
+			"Total"		"36"
+			"1"		"Left Behind"
+			"2"		"Big Wat"
+			"3"		"Blood Tracks"
+			"4"		"Back To School"
+			"5"		"Carried Off"
+			"6"		"Crash Course: ReRouted"
+			"7"		"City 17 v3.2"
+			"8"		"City of the Dead"
+			"9"		"Dark Blood 2"
+			"10"		"Day Break"
+			"11"		"Dead Before Dawn DC"
+			"12"		"Drop Dead Gorges v2.1"
+			"13"		"Deadbeat Escape"
+			"14"		"Death Sentence"
+			"15"		"Detour Ahead"
+			"16"		"Dark Carnival Remix"
+			"17"		"Don't Fall"
+			"18"		"Hard Rain: Downpour"
+			"19"		"Energy Crisis"
+			"20"		"Fatal Freight"
+			"21"		"Haunted Forest"
+			"22"		"Heaven Can Wait II"
+			"23"		"Highway To Hell"
+			"24"		"I Hate Mountains 2 v1.5"
+			"25"		"Arena of the Dead 2 v5"
+			"26"		"Diescraper Redux v3.62"
+			"27"		"The Bloody Moors"
+			"28"		"No Mercy: Rehab"
+			"29"		"Open Road"
+			"30"		"Parish: OverGrowth"
+			"31"		"Suicide Blitz 2"
+			"32"		"Tour of Terror"
+			"33"		"The Undead Zone"
+			"34"		"Unforgivable Night Redux"
+			"35"		"Urban Flight"
+			"36"		"Warcelona"
+		}
+		"Valve"
+		{
+			"Total"		"14"
+			"1"		"#L4D360UI_CampaignName_C1"
+			"10"		"#L4D360UI_CampaignName_C10"
+			"11"		"#L4D360UI_CampaignName_C11"
+			"12"		"#L4D360UI_CampaignName_C12"
+			"13"		"#L4D360UI_CampaignName_C13"
+			"14"		"#L4D360UI_CampaignName_C14"
+			"2"		"#L4D360UI_CampaignName_C2"
+			"3"		"#L4D360UI_CampaignName_C3"
+			"4"		"#L4D360UI_CampaignName_C4"
+			"5"		"#L4D360UI_CampaignName_C5"
+			"6"		"#L4D360UI_CampaignName_C6"
+			"7"		"#L4D360UI_CampaignName_C7"
+			"8"		"#L4D360UI_CampaignName_C8"
+			"9"		"#L4D360UI_CampaignName_C9"
+		}
+	}
+	"Missions"
+	{
+		"Left Behind"
+		{
+			"Name"		"behind"
+			"1"
+			{
+				"Map"		"bhm1_outskirts"
+				"DisplayName"		"1. The Outskirts"
+			}
+			"2"
+			{
+				"Map"		"bhm2_dam"
+				"DisplayName"		"2. The Dam"
+			}
+			"3"
+			{
+				"Map"		"bhm3_station"
+				"DisplayName"		"3. The Station"
+			}
+			"4"
+			{
+				"Map"		"bhm4_base"
+				"DisplayName"		"4. The Base"
+			}
+		}
+		"Big Wat"
+		{
+			"Name"		"bigwat"
+			"1"
+			{
+				"Map"		"bwm1_climb"
+				"DisplayName"		"1: Climb"
+			}
+			"2"
+			{
+				"Map"		"bwm2_city"
+				"DisplayName"		"2: City"
+			}
+			"3"
+			{
+				"Map"		"bwm3_forest"
+				"DisplayName"		"3: Forest"
+			}
+			"4"
+			{
+				"Map"		"bwm4_rooftops"
+				"DisplayName"		"4: Rooftops"
+			}
+			"5"
+			{
+				"Map"		"bwm5_bridge"
+				"DisplayName"		"5: Bridge"
+			}
+		}
+		"Blood Tracks"
+		{
+			"Name"		"BloodTracks"
+			"1"
+			{
+				"Map"		"bloodtracks_01"
+				"DisplayName"		"The Harbor"
+			}
+			"2"
+			{
+				"Map"		"bloodtracks_02"
+				"DisplayName"		"The Woods"
+			}
+			"3"
+			{
+				"Map"		"bloodtracks_03"
+				"DisplayName"		"The Rails"
+			}
+			"4"
+			{
+				"Map"		"bloodtracks_04"
+				"DisplayName"		"The Station"
+			}
+		}
+		"Back To School"
+		{
+			"Name"		"bts"
+			"1"
+			{
+				"Map"		"l4d2_bts01_forest"
+				"DisplayName"		"1: Forest"
+			}
+			"2"
+			{
+				"Map"		"l4d2_bts02_station"
+				"DisplayName"		"2: Railroad Station"
+			}
+			"3"
+			{
+				"Map"		"l4d2_bts03_town"
+				"DisplayName"		"3: Town"
+			}
+			"4"
+			{
+				"Map"		"l4d2_bts04_cinema"
+				"DisplayName"		"4: Cinema"
+			}
+			"5"
+			{
+				"Map"		"l4d2_bts05_church"
+				"DisplayName"		"5: Church"
+			}
+			"6"
+			{
+				"Map"		"l4d2_bts06_school"
+				"DisplayName"		"6: School Finale"
+			}
+		}
+		"#L4D360UI_CampaignName_C1"
+		{
+			"Name"		"L4D2C1"
+			"1"
+			{
+				"Map"		"c1m1_hotel"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C1M1"
+			}
+			"2"
+			{
+				"Map"		"c1m2_streets"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C1M2"
+			}
+			"3"
+			{
+				"Map"		"c1m3_mall"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C1M3"
+			}
+			"4"
+			{
+				"Map"		"c1m4_atrium"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C1M4"
+			}
+		}
+		"#L4D360UI_CampaignName_C10"
+		{
+			"Name"		"L4D2C10"
+			"1"
+			{
+				"Map"		"c10m1_caves"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C10M1"
+			}
+			"2"
+			{
+				"Map"		"c10m2_drainage"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C10M2"
+			}
+			"3"
+			{
+				"Map"		"c10m3_ranchhouse"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C10M3"
+			}
+			"4"
+			{
+				"Map"		"c10m4_mainstreet"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C10M4"
+			}
+			"5"
+			{
+				"Map"		"c10m5_houseboat"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C10M5"
+			}
+		}
+		"#L4D360UI_CampaignName_C11"
+		{
+			"Name"		"L4D2C11"
+			"1"
+			{
+				"Map"		"c11m1_greenhouse"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C11M1"
+			}
+			"2"
+			{
+				"Map"		"c11m2_offices"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C11M2"
+			}
+			"3"
+			{
+				"Map"		"c11m3_garage"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C11M3"
+			}
+			"4"
+			{
+				"Map"		"c11m4_terminal"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C11M4"
+			}
+			"5"
+			{
+				"Map"		"c11m5_runway"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C11M5"
+			}
+		}
+		"#L4D360UI_CampaignName_C12"
+		{
+			"Name"		"L4D2C12"
+			"1"
+			{
+				"Map"		"c12m1_hilltop"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C12M1"
+			}
+			"2"
+			{
+				"Map"		"c12m2_traintunnel"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C12M2"
+			}
+			"3"
+			{
+				"Map"		"c12m3_bridge"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C12M3"
+			}
+			"4"
+			{
+				"Map"		"c12m4_barn"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C12M4"
+			}
+			"5"
+			{
+				"Map"		"c12m5_cornfield"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C12M5"
+			}
+		}
+		"#L4D360UI_CampaignName_C13"
+		{
+			"Name"		"L4D2C13"
+			"1"
+			{
+				"Map"		"c13m1_alpinecreek"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C13M1"
+			}
+			"2"
+			{
+				"Map"		"c13m2_southpinestream"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C13M2"
+			}
+			"3"
+			{
+				"Map"		"c13m3_memorialbridge"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C13M3"
+			}
+			"4"
+			{
+				"Map"		"c13m4_cutthroatcreek"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C13M4"
+			}
+		}
+		"#L4D360UI_CampaignName_C14"
+		{
+			"Name"		"L4D2C14"
+			"1"
+			{
+				"Map"		"c14m1_junkyard"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C14M1"
+			}
+			"2"
+			{
+				"Map"		"c14m2_lighthouse"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C14M2"
+			}
+		}
+		"#L4D360UI_CampaignName_C2"
+		{
+			"Name"		"L4D2C2"
+			"1"
+			{
+				"Map"		"c2m1_highway"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C2M1"
+			}
+			"2"
+			{
+				"Map"		"c2m2_fairgrounds"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C2M2"
+			}
+			"3"
+			{
+				"Map"		"c2m3_coaster"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C2M3"
+			}
+			"4"
+			{
+				"Map"		"c2m4_barns"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C2M4"
+			}
+			"5"
+			{
+				"Map"		"c2m5_concert"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C2M5"
+			}
+		}
+		"#L4D360UI_CampaignName_C3"
+		{
+			"Name"		"L4D2C3"
+			"1"
+			{
+				"Map"		"c3m1_plankcountry"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C3M1"
+			}
+			"2"
+			{
+				"Map"		"c3m2_swamp"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C3M2"
+			}
+			"3"
+			{
+				"Map"		"c3m3_shantytown"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C3M3"
+			}
+			"4"
+			{
+				"Map"		"c3m4_plantation"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C3M4"
+			}
+		}
+		"#L4D360UI_CampaignName_C4"
+		{
+			"Name"		"L4D2C4"
+			"1"
+			{
+				"Map"		"c4m1_milltown_a"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C4M1"
+			}
+			"2"
+			{
+				"Map"		"c4m2_sugarmill_a"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C4M2"
+			}
+			"3"
+			{
+				"Map"		"c4m3_sugarmill_b"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C4M3"
+			}
+			"4"
+			{
+				"Map"		"c4m4_milltown_b"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C4M4"
+			}
+			"5"
+			{
+				"Map"		"c4m5_milltown_escape"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C4M5"
+			}
+		}
+		"#L4D360UI_CampaignName_C5"
+		{
+			"Name"		"L4D2C5"
+			"1"
+			{
+				"Map"		"c5m1_waterfront"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C5M1"
+			}
+			"2"
+			{
+				"Map"		"c5m2_park"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C5M2"
+			}
+			"3"
+			{
+				"Map"		"c5m3_cemetery"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C5M3"
+			}
+			"4"
+			{
+				"Map"		"c5m4_quarter"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C5M4"
+			}
+			"5"
+			{
+				"Map"		"c5m5_bridge"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C5M5"
+			}
+		}
+		"#L4D360UI_CampaignName_C6"
+		{
+			"Name"		"L4D2C6"
+			"1"
+			{
+				"Map"		"c6m1_riverbank"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C6M1"
+			}
+			"2"
+			{
+				"Map"		"c6m2_bedlam"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C6M2"
+			}
+			"3"
+			{
+				"Map"		"c6m3_port"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C6M3"
+			}
+		}
+		"#L4D360UI_CampaignName_C7"
+		{
+			"Name"		"L4D2C7"
+			"1"
+			{
+				"Map"		"c7m1_docks"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C7M1"
+			}
+			"2"
+			{
+				"Map"		"c7m2_barge"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C7M2"
+			}
+			"3"
+			{
+				"Map"		"c7m3_port"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C7M3"
+			}
+		}
+		"#L4D360UI_CampaignName_C8"
+		{
+			"Name"		"L4D2C8"
+			"1"
+			{
+				"Map"		"c8m1_apartment"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C8M1"
+			}
+			"2"
+			{
+				"Map"		"c8m2_subway"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C8M2"
+			}
+			"3"
+			{
+				"Map"		"c8m3_sewers"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C8M3"
+			}
+			"4"
+			{
+				"Map"		"c8m4_interior"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C8M4"
+			}
+			"5"
+			{
+				"Map"		"c8m5_rooftop"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C8M5"
+			}
+		}
+		"#L4D360UI_CampaignName_C9"
+		{
+			"Name"		"L4D2C9"
+			"1"
+			{
+				"Map"		"c9m1_alleys"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C9M1"
+			}
+			"2"
+			{
+				"Map"		"c9m2_lots"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C9M2"
+			}
+		}
+		"Carried Off"
+		{
+			"Name"		"CarriedOff"
+			"1"
+			{
+				"Map"		"cwm1_intro"
+				"DisplayName"		"The Riverbed"
+			}
+			"2"
+			{
+				"Map"		"cwm2_warehouse"
+				"DisplayName"		"The Town"
+			}
+			"3"
+			{
+				"Map"		"cwm3_drain"
+				"DisplayName"		"The Sewers"
+			}
+			"4"
+			{
+				"Map"		"cwm4_building"
+				"DisplayName"		"The Office Building"
+			}
+		}
+		"Crash Course: ReRouted"
+		{
+			"Name"		"crashcoursererouted"
+			"1"
+			{
+				"Map"		"CCR1_alleys"
+				"DisplayName"		"Alleys"
+			}
+			"2"
+			{
+				"Map"		"CCR2_lots"
+				"DisplayName"		"Lots"
+			}
+			"3"
+			{
+				"Map"		"CCR3_Factories"
+				"DisplayName"		"Factories"
+			}
+			"4"
+			{
+				"Map"		"CCR4_Waterworks"
+				"DisplayName"		"Waterworks"
+			}
+			"5"
+			{
+				"Map"		"CCR5_Storage_f"
+				"DisplayName"		"Storage"
+			}
+		}
+		"City 17 v3.2"
+		{
+			"Name"		"City17l4d2"
+			"1"
+			{
+				"Map"		"l4d2_city17_01"
+				"DisplayName"		"1: Tunnels"
+			}
+			"2"
+			{
+				"Map"		"l4d2_city17_02"
+				"DisplayName"		"2: To the surface"
+			}
+			"3"
+			{
+				"Map"		"l4d2_city17_03"
+				"DisplayName"		"3: Streets"
+			}
+			"4"
+			{
+				"Map"		"l4d2_city17_04"
+				"DisplayName"		"4: Hospital"
+			}
+			"5"
+			{
+				"Map"		"l4d2_city17_05"
+				"DisplayName"		"5: Trainstation"
+			}
+		}
+		"City of the Dead"
+		{
+			"Name"		"CityOfTheDead"
+			"1"
+			{
+				"Map"		"cotd01_apartments"
+				"DisplayName"		"1: Apartments"
+			}
+			"2"
+			{
+				"Map"		"cotd02_warehouse"
+				"DisplayName"		"2: Warehouse"
+			}
+			"3"
+			{
+				"Map"		"cotd03_mall"
+				"DisplayName"		"3: Abandoned Mall"
+			}
+			"4"
+			{
+				"Map"		"cotd04_rooftop"
+				"DisplayName"		"4: Rooftop Escape"
+			}
+		}
+		"Dark Blood 2"
+		{
+			"Name"		"darkblood2"
+			"1"
+			{
+				"Map"		"l4d2_darkblood01_tanker"
+				"DisplayName"		"Tanker Ship"
+			}
+			"2"
+			{
+				"Map"		"l4d2_darkblood02_engine"
+				"DisplayName"		"Tanker Engine"
+			}
+			"3"
+			{
+				"Map"		"l4d2_darkblood03_platform"
+				"DisplayName"		"Platform"
+			}
+			"4"
+			{
+				"Map"		"l4d2_darkblood04_extraction"
+				"DisplayName"		"Extraction"
+			}
+		}
+		"Day Break"
+		{
+			"Name"		"DayBreak"
+			"1"
+			{
+				"Map"		"l4d2_daybreak01_hotel"
+				"DisplayName"		"1: The Hotel"
+			}
+			"2"
+			{
+				"Map"		"l4d2_daybreak02_coastline"
+				"DisplayName"		"2: The Coastline"
+			}
+			"3"
+			{
+				"Map"		"l4d2_daybreak03_bridge"
+				"DisplayName"		"3: The Bridge"
+			}
+			"4"
+			{
+				"Map"		"l4d2_daybreak04_cruise"
+				"DisplayName"		"4: The Outskirts"
+			}
+			"5"
+			{
+				"Map"		"l4d2_daybreak05_rescue"
+				"DisplayName"		"5: Alcatraz Finale"
+			}
+		}
+		"Dead Before Dawn DC"
+		{
+			"Name"		"dbd2dc"
+			"1"
+			{
+				"Map"		"l4d_dbd2dc_anna_is_gone"
+				"DisplayName"		"Anna is gone"
+			}
+			"2"
+			{
+				"Map"		"l4d_dbd2dc_the_mall"
+				"DisplayName"		"The mall"
+			}
+			"3"
+			{
+				"Map"		"l4d_dbd2dc_clean_up"
+				"DisplayName"		"Clean up"
+			}
+			"4"
+			{
+				"Map"		"l4d_dbd2dc_undead_center"
+				"DisplayName"		"Undead center"
+			}
+			"5"
+			{
+				"Map"		"l4d_dbd2dc_new_dawn"
+				"DisplayName"		"New dawn"
+			}
+		}
+		"Drop Dead Gorges v2.1"
+		{
+			"Name"		"drdegov21"
+			"1"
+			{
+				"Map"		"ddg1_tower_v2_1"
+				"DisplayName"		"tower"
+			}
+			"2"
+			{
+				"Map"		"ddg2_gristmill_v2"
+				"DisplayName"		"gristmill"
+			}
+			"3"
+			{
+				"Map"		"ddg3_bluff_v2_1"
+				"DisplayName"		"bluff"
+			}
+		}
+		"Deadbeat Escape"
+		{
+			"Name"		"DeadbeatEscape"
+			"1"
+			{
+				"Map"		"deadbeat01_forest"
+				"DisplayName"		"1: Forest"
+			}
+			"2"
+			{
+				"Map"		"deadbeat02_alley"
+				"DisplayName"		"2: Alley"
+			}
+			"3"
+			{
+				"Map"		"deadbeat03_street"
+				"DisplayName"		"3: Streets"
+			}
+			"4"
+			{
+				"Map"		"deadbeat04_park"
+				"DisplayName"		"4: Park Finale"
+			}
+		}
+		"Death Sentence"
+		{
+			"Name"		"deathSentence"
+			"1"
+			{
+				"Map"		"death_sentence_1"
+				"DisplayName"		"satans square"
+			}
+			"2"
+			{
+				"Map"		"death_sentence_2"
+				"DisplayName"		"The Stink of Flesh"
+			}
+			"3"
+			{
+				"Map"		"death_sentence_3"
+				"DisplayName"		"hostil campsite"
+			}
+			"4"
+			{
+				"Map"		"death_sentence_4"
+				"DisplayName"		"village of the damned"
+			}
+			"5"
+			{
+				"Map"		"death_sentence_5"
+				"DisplayName"		"slaughter island"
+			}
+		}
+		"Detour Ahead"
+		{
+			"Name"		"detourahead"
+			"1"
+			{
+				"Map"		"cdta_01detour"
+				"DisplayName"		"DTA1 Detour"
+			}
+			"2"
+			{
+				"Map"		"cdta_02road"
+				"DisplayName"		"DTA2 Hill"
+			}
+			"3"
+			{
+				"Map"		"cdta_03warehouse"
+				"DisplayName"		"DTA3 Warehouse"
+			}
+			"4"
+			{
+				"Map"		"cdta_04onarail"
+				"DisplayName"		"DTA4 On A Rail"
+			}
+			"5"
+			{
+				"Map"		"cdta_05finalroad"
+				"DisplayName"		"DTA5 Final Road"
+			}
+		}
+		"Dark Carnival Remix"
+		{
+			"Name"		"DarkCarnivalRemix"
+			"1"
+			{
+				"Map"		"dkr_m1_motel"
+				"DisplayName"		"The Motel"
+			}
+			"2"
+			{
+				"Map"		"dkr_m2_carnival"
+				"DisplayName"		"The Carnival"
+			}
+			"3"
+			{
+				"Map"		"dkr_m3_tunneloflove"
+				"DisplayName"		"The Tunnel of Love"
+			}
+			"4"
+			{
+				"Map"		"dkr_m4_ferris"
+				"DisplayName"		"The Ferris Wheel"
+			}
+			"5"
+			{
+				"Map"		"dkr_m5_stadium"
+				"DisplayName"		"The Stadium"
+			}
+		}
+		"Don't Fall"
+		{
+			"Name"		"Dontfallexempt"
+			"1"
+			{
+				"Map"		"exempt_dontfall_update_c1"
+				"DisplayName"		"Ascent"
+			}
+			"2"
+			{
+				"Map"		"exempt_dontfall_update"
+				"DisplayName"		"Rooftops"
+			}
+		}
+		"Hard Rain: Downpour"
+		{
+			"Name"		"Downpour"
+			"1"
+			{
+				"Map"		"dprm1_milltown_a"
+				"DisplayName"		"Chapter 1: Milltown"
+			}
+			"2"
+			{
+				"Map"		"dprm2_sugarmill_a"
+				"DisplayName"		"Chapter 2: Sugarmill"
+			}
+			"3"
+			{
+				"Map"		"dprm3_sugarmill_b"
+				"DisplayName"		"Chapter 3: Sugarmill Return"
+			}
+			"4"
+			{
+				"Map"		"dprm4_milltown_b"
+				"DisplayName"		"Chapter 4: Milltown Return"
+			}
+			"5"
+			{
+				"Map"		"dprm5_milltown_escape"
+				"DisplayName"		"Chapter 5: Milltown Escape"
+			}
+		}
+		"Energy Crisis"
+		{
+			"Name"		"energycrisis"
+			"1"
+			{
+				"Map"		"ec01_outlets"
+				"DisplayName"		"The Outlet Mall"
+			}
+			"2"
+			{
+				"Map"		"ec02_dam"
+				"DisplayName"		"The Reservoir"
+			}
+			"3"
+			{
+				"Map"		"ec03_village"
+				"DisplayName"		"The Village"
+			}
+			"4"
+			{
+				"Map"		"ec04_powerstation"
+				"DisplayName"		"The Power Station"
+			}
+			"5"
+			{
+				"Map"		"ec05_quarry"
+				"DisplayName"		"The Quarry"
+			}
+		}
+		"Fatal Freight"
+		{
+			"Name"		"FatalFreight"
+			"1"
+			{
+				"Map"		"l4d2_ff01_woods"
+				"DisplayName"		"1: The Woods"
+			}
+			"2"
+			{
+				"Map"		"l4d2_ff02_factory"
+				"DisplayName"		"2: The Factory"
+			}
+			"3"
+			{
+				"Map"		"l4d2_ff03_highway"
+				"DisplayName"		"3: The Highway"
+			}
+			"4"
+			{
+				"Map"		"l4d2_ff04_plant"
+				"DisplayName"		"4: The Plant"
+			}
+			"5"
+			{
+				"Map"		"l4d2_ff05_station"
+				"DisplayName"		"5: Trainyard Finale"
+			}
+		}
+		"Haunted Forest"
+		{
+			"Name"		"hauntedforest"
+			"1"
+			{
+				"Map"		"hf01_theforest"
+				"DisplayName"		"1: The Forest"
+			}
+			"2"
+			{
+				"Map"		"hf02_thesteeple"
+				"DisplayName"		"2: The Steeple"
+			}
+			"3"
+			{
+				"Map"		"hf03_themansion"
+				"DisplayName"		"3: The Mansion"
+			}
+			"4"
+			{
+				"Map"		"hf04_escape"
+				"DisplayName"		"4: The Tunnel"
+			}
+		}
+		"Heaven Can Wait II"
+		{
+			"Name"		"heavencanwait2"
+			"1"
+			{
+				"Map"		"hcw1_aircrash"
+				"DisplayName"		"1: AirCrash"
+			}
+			"2"
+			{
+				"Map"		"hcw2_rivermotel"
+				"DisplayName"		"2: RiverMotel"
+			}
+			"3"
+			{
+				"Map"		"hcw3_outskirts"
+				"DisplayName"		"3: OutSkirts"
+			}
+			"4"
+			{
+				"Map"		"hcw4_cityhall"
+				"DisplayName"		"4: CityHall"
+			}
+			"5"
+			{
+				"Map"		"hcw5_bombshelter"
+				"DisplayName"		"5: BombShelter"
+			}
+		}
+		"Highway To Hell"
+		{
+			"Name"		"HighwayToHell"
+			"1"
+			{
+				"Map"		"highway01_apt_20130613"
+				"DisplayName"		"Apartment Escape"
+			}
+			"2"
+			{
+				"Map"		"highway02_megamart_20130613"
+				"DisplayName"		"Interstate 10"
+			}
+			"3"
+			{
+				"Map"		"highway03_hood01_20130614"
+				"DisplayName"		"The Hood"
+			}
+			"4"
+			{
+				"Map"		"highway04_afb_a_02_20130616"
+				"DisplayName"		"Basic Training"
+			}
+			"5"
+			{
+				"Map"		"highway05_afb02_20130820"
+				"DisplayName"		"C17 Hangar"
+			}
+		}
+		"I Hate Mountains 2 v1.5"
+		{
+			"Name"		"ihatemountains2"
+			"1"
+			{
+				"Map"		"l4d_ihm01_forest"
+				"DisplayName"		"1: Lost in the Woods"
+			}
+			"2"
+			{
+				"Map"		"l4d_ihm02_manor"
+				"DisplayName"		"2: Climbing the Manor"
+			}
+			"3"
+			{
+				"Map"		"l4d_ihm03_underground"
+				"DisplayName"		"3: The Underground Way"
+			}
+			"4"
+			{
+				"Map"		"l4d_ihm04_lumberyard"
+				"DisplayName"		"4: Lumberyard Evacuation"
+			}
+			"5"
+			{
+				"Map"		"l4d_ihm05_lakeside"
+				"DisplayName"		"5: Lakeside Finale"
+			}
+		}
+		"Arena of the Dead 2 v5"
+		{
+			"Name"		"jsarena2"
+			"1"
+			{
+				"Map"		"jsarena201_town"
+				"DisplayName"		"Downtown"
+			}
+			"2"
+			{
+				"Map"		"jsarena202_alley"
+				"DisplayName"		"The Alleys"
+			}
+			"3"
+			{
+				"Map"		"jsarena203_roof"
+				"DisplayName"		"The Rooftops"
+			}
+			"4"
+			{
+				"Map"		"jsarena204_arena"
+				"DisplayName"		"The Arena"
+			}
+		}
+		"Diescraper Redux v3.62"
+		{
+			"Name"		"Diescraper362"
+			"1"
+			{
+				"Map"		"l4d2_diescraper1_apartment_361"
+				"DisplayName"		"Apartment complex"
+			}
+			"2"
+			{
+				"Map"		"l4d2_diescraper2_streets_361"
+				"DisplayName"		"Downtown military outpost"
+			}
+			"3"
+			{
+				"Map"		"l4d2_diescraper3_mid_361"
+				"DisplayName"		"The Skymall"
+			}
+			"4"
+			{
+				"Map"		"l4d2_diescraper4_top_361"
+				"DisplayName"		"The top suites"
+			}
+		}
+		"The Bloody Moors"
+		{
+			"Name"		"TheBloodyMoors"
+			"1"
+			{
+				"Map"		"l4d_tbm_1"
+				"DisplayName"		"1: The Cottage"
+			}
+			"2"
+			{
+				"Map"		"l4d_tbm_2"
+				"DisplayName"		"2: Acid House Party"
+			}
+			"3"
+			{
+				"Map"		"l4d_tbm_3"
+				"DisplayName"		"3: 'Keep Off The Moors'"
+			}
+			"4"
+			{
+				"Map"		"l4d_tbm_4"
+				"DisplayName"		"4: The Old Stag"
+			}
+			"5"
+			{
+				"Map"		"l4d_tbm_5"
+				"DisplayName"		"5: Arthur's Supplies"
+			}
+		}
+		"No Mercy: Rehab"
+		{
+			"Name"		"NoMercyRehab"
+			"1"
+			{
+				"Map"		"nmrm1_apartment"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C8M1"
+			}
+			"2"
+			{
+				"Map"		"nmrm2_subway"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C8M2"
+			}
+			"3"
+			{
+				"Map"		"nmrm3_sewers"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C8M3"
+			}
+			"4"
+			{
+				"Map"		"nmrm4_hospital"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C8M4"
+			}
+			"5"
+			{
+				"Map"		"nmrm5_rooftop"
+				"DisplayName"		"#L4D360UI_LevelName_COOP_C8M5"
+			}
+		}
+		"Open Road"
+		{
+			"Name"		"OpenRoadICSX"
+			"1"
+			{
+				"Map"		"x1m1_cliffs"
+				"DisplayName"		"Cliffs"
+			}
+			"2"
+			{
+				"Map"		"x1m2_path"
+				"DisplayName"		"Path"
+			}
+			"3"
+			{
+				"Map"		"x1m3_city"
+				"DisplayName"		"City"
+			}
+			"4"
+			{
+				"Map"		"x1m4_forest"
+				"DisplayName"		"Forest"
+			}
+			"5"
+			{
+				"Map"		"x1m5_salvation"
+				"DisplayName"		"Salvation"
+			}
+		}
+		"Parish: OverGrowth"
+		{
+			"Name"		"ParishOverGrowth"
+			"1"
+			{
+				"Map"		"PR1_Waterfront_F"
+				"DisplayName"		"Waterfront"
+			}
+			"2"
+			{
+				"Map"		"PR2_Park_F"
+				"DisplayName"		"park"
+			}
+			"3"
+			{
+				"Map"		"PR3_Highway_F"
+				"DisplayName"		"Highway"
+			}
+			"4"
+			{
+				"Map"		"PR4_Quarter_F"
+				"DisplayName"		"Quarter"
+			}
+			"5"
+			{
+				"Map"		"PR5_Bridge_F"
+				"DisplayName"		"bridge"
+			}
+		}
+		"Suicide Blitz 2"
+		{
+			"Name"		"suicideblitz2"
+			"1"
+			{
+				"Map"		"l4d2_stadium1_apartment"
+				"DisplayName"		"The Apartment"
+			}
+			"2"
+			{
+				"Map"		"l4d2_stadium2_riverwalk"
+				"DisplayName"		"The Riverwalk"
+			}
+			"3"
+			{
+				"Map"		"l4d2_stadium3_city1"
+				"DisplayName"		"The Law"
+			}
+			"4"
+			{
+				"Map"		"l4d2_stadium4_city2"
+				"DisplayName"		"The City"
+			}
+			"5"
+			{
+				"Map"		"l4d2_stadium5_stadium"
+				"DisplayName"		"The Stadium"
+			}
+		}
+		"Tour of Terror"
+		{
+			"Name"		"tot"
+			"1"
+			{
+				"Map"		"eu01_residential_b16"
+				"DisplayName"		"Residential"
+			}
+			"2"
+			{
+				"Map"		"eu02_castle_b16"
+				"DisplayName"		"Castle"
+			}
+			"3"
+			{
+				"Map"		"eu03_oldtown_b16"
+				"DisplayName"		"Oldtown"
+			}
+			"4"
+			{
+				"Map"		"eu04_freeway_b16"
+				"DisplayName"		"Freeway"
+			}
+			"5"
+			{
+				"Map"		"eu05_train_b16"
+				"DisplayName"		"Trainstation"
+			}
+		}
+		"The Undead Zone"
+		{
+			"Name"		"undeadzone"
+			"1"
+			{
+				"Map"		"uz_crash"
+				"DisplayName"		"Crash"
+			}
+			"2"
+			{
+				"Map"		"uz_town"
+				"DisplayName"		"Town"
+			}
+			"3"
+			{
+				"Map"		"uz_desert"
+				"DisplayName"		"Desert"
+			}
+			"4"
+			{
+				"Map"		"uz_bunker"
+				"DisplayName"		"Bunker"
+			}
+			"5"
+			{
+				"Map"		"uz_escape"
+				"DisplayName"		"Escape"
+			}
+		}
+		"Unforgivable Night Redux"
+		{
+			"Name"		"UnforgivableNightRedux"
+			"1"
+			{
+				"Map"		"c2m1_undarkv2"
+				"DisplayName"		"Port"
+			}
+			"2"
+			{
+				"Map"		"c2m2_undarkv2"
+				"DisplayName"		"Factory"
+			}
+			"3"
+			{
+				"Map"		"c2m3_undarkv2"
+				"DisplayName"		"Urban"
+			}
+			"4"
+			{
+				"Map"		"c2m4_undarkv2"
+				"DisplayName"		"Rooftop Construction"
+			}
+		}
+		"Urban Flight"
+		{
+			"Name"		"urbanflight"
+			"1"
+			{
+				"Map"		"uf1_boulevard"
+				"DisplayName"		"1: Boulevard"
+			}
+			"2"
+			{
+				"Map"		"uf2_rooftops"
+				"DisplayName"		"2: Rooftops"
+			}
+			"3"
+			{
+				"Map"		"uf3_harbor"
+				"DisplayName"		"3: Harbor"
+			}
+			"4"
+			{
+				"Map"		"uf4_airfield"
+				"DisplayName"		"4: Airfield"
+			}
+		}
+		"Warcelona"
+		{
+			"Name"		"warcelona"
+			"1"
+			{
+				"Map"		"srocchurch"
+				"DisplayName"		"neighborhood"
+			}
+			"2"
+			{
+				"Map"		"plaza_espana"
+				"DisplayName"		"plaza"
+			}
+			"3"
+			{
+				"Map"		"maria_cristina"
+				"DisplayName"		"avenue"
+			}
+			"4"
+			{
+				"Map"		"mnac"
+				"DisplayName"		"gardens"
+			}
+		}
+	}
+}

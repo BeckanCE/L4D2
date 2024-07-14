@@ -1,0 +1,64 @@
+﻿/**
+ * The default sorting is designed to look familiar to Mani's admin menu.
+ * You may re-order items here for your own menu.  Any items not explicitly 
+ * sorted will be sorted by their final translated phrases for each given client.
+ */
+
+"Menu"
+{
+	"PlayerCommands"
+	{
+		"item"		"sm_slay"
+		"item"		"sm_slap"
+		"item"		"sm_kick"
+		"item"		"sm_ban"
+		"item"		"sm_gag"
+		"item"		"sm_burn"		
+		"item"		"sm_beacon"
+		"item"		"sm_freeze"
+		"item"		"sm_timebomb"
+		"item"		"sm_firebomb"
+		"item"		"sm_freezebomb"
+	}
+
+	"ServerCommands"
+	{
+		"item"		"sm_map"
+		"item"		"sm_execcfg"
+		"item"		"sm_reloadadmins"
+		"item"		"sm_rr"
+		"item"		"sm_spawntools7"
+	}
+
+	"VotingCommands"
+	{
+		"item"		"sm_cancelvote"
+		"item"		"sm_votemap"
+		"item"		"sm_votekick"
+		"item"		"sm_voteban"
+	}
+
+	"adminmanager"
+	{
+		"item"		"sm_addadmin"
+		"item"		"sm_editadmin"
+		"item"		"sm_removeadmin"
+		"item"		"sm_reloadadmins"
+	}
+
+	"groupmanager"
+	{
+		"item"		"sm_addgroup"
+		"item"		"sm_editgroup"
+		"item"		"sm_removegroup"
+	}
+
+	"Commands"
+	{
+		"item"		"sm_ban"
+		"item"		"sm_kick"
+		"item"		"sm_slay"
+		"item"		"sm_slap"
+	}
+}
+

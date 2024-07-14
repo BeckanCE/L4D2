@@ -1,0 +1,193 @@
+"MatchModes"
+{
+	"Configuraciones 4v4"
+	{
+		"zonemod"
+		{
+			"name" "ZoneMod"
+		}
+		"zonehunters"
+		{
+			"name" "ZoneHunters"
+		}
+		"quadmod"
+		{
+			"name" "QuadMod"
+		}
+		"svanilla"
+		{
+		    "name" "Super Vanilla"
+		}
+		"scavogl"
+		{
+		    "name" "ScavOgl"
+	    }
+		"nextmod"
+		{
+			"name" "NextMod"
+		}
+		"zoneretro"
+		{
+		    "name" "ZoneMod Retro"
+		}
+		"neomod"
+		{
+			"name" "NeoMod"
+		}
+		"pmelite"
+		{
+			"name" "PromMod Elite"
+		}
+		"acemodrv"
+		{
+		    "name" "Acemod RV"
+		}
+		"eq"
+		{
+		    "name" "Equilibrium"
+		}
+		"apex"
+		{
+		    "name" "Apex"
+		}
+		"deadman"
+		{
+		    "name" "Deadman"
+		}
+	}
+	"Configuraciones 3v3"
+	{
+		"zm3v3"
+		{
+			"name" "ZoneMod"
+		}
+		"nextmod3v3"
+		{
+		    "name" "NextMod"
+		}
+		"zh3v3"
+		{
+		    "name" "ZoneHunters"
+		}
+		"scav3v3"
+		{   
+		    "name" "ScavOgl"
+		}
+		"sv3v3"
+		{
+		    "name" "Super Vanilla"
+		}
+		"amrv3v3"
+		{
+		    "name" "Acemod RV"
+		}
+		"eq3v3"
+		{
+		    "name" "Equilibrium"
+		}		
+	}
+	"Configuraciones 2v2"
+	{
+		"zm2v2"
+		{
+			"name" "ZoneMod"
+		}
+		"nextmod2v2"
+		{
+			"name" "NextMod"
+		}
+		"zh2v2"
+		{
+			"name" "ZoneHunters"
+		}
+		"scav2v2"
+		{
+			"name" "ScavOgl"
+		}
+		"sv2v2"
+		{
+		    "name" "Super Vanilla"
+		}
+		"amrv2v2"
+		{
+		    "name" "Acemod"
+		}
+		"eq2v2"
+		{
+		    "name" "Equilibrium"
+		}
+	}
+	"Configuraciones 1v1"
+	{
+		"zm1v1"
+		{
+			"name" "ZoneMod"
+		}
+		"zm1v1T&W"
+		{
+		    "name" "ZoneMod[T&W]"
+		}
+		"nextmod1v1"
+		{
+			"name" "NextMod"
+		}
+		"nextmod1v1T&W"
+		{
+		    "name" "NextMod[T&W]"
+		}
+		"zh1v1"
+		{
+		    "name" "ZoneHunters"
+		}
+		"scav1v1"
+		{
+		    "name" "ScavOgl"
+		}
+		"sv1v1"
+		{
+		    "name" "Super Vanilla"
+		}
+		"amrv1v1"
+		{
+		    "name" "Acemod"
+		}
+		"eq1v1"
+		{
+		    "name" "Equilibrium"
+		}
+	}
+	"Witch Party"
+	{
+	    "witchparty"
+		{
+		    "name" "Witch Party"
+		}
+		"wp3v3"
+		{
+		    "name" "Witch Party 3v3"
+		}
+		"wp2v2"
+		{
+		    "name" "Witch Party 2v2"
+		}
+		"wp1v1"
+		{
+		    "name" "Witch Party 1v1"
+		}
+	}
+	"Práctica Hunters"
+	{
+	    "pr1v1"
+		{
+		    "name" "PracticeOgl 1v1"
+		}
+		"ph2"
+		{
+		    "name" "Practice Hunters 2 Players"
+		}
+		"ph1"
+		{
+		    "name" "Practice Hunters 1 Player"
+		}
+	}	
+}

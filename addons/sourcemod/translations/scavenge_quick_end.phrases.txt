@@ -1,0 +1,47 @@
+"Phrases"
+{
+	"Tag"
+	{
+		"en"		"[{olive}!{default}]"
+	}
+
+	"PrintRoundTime"
+	{
+		"#format"	"{1:d},{2:d},{3:d},{4:.2f}"
+		"en"		"Round {orange}{1}{default} ({blue}1st half{default}): {orange}{2} cans {default}in {orange}{3}{default}:{orange}{4}"
+	}
+
+	"PrintRoundTimeInHalf"
+	{
+		"#format"	"{1:d},{2:d},{3:d},{4:.2f}"
+		"en"		"Round {orange}{1}{default} ({red}2nd half{default}): {orange}{2} cans {default}in {orange}{3}{default}:{orange}{4}"
+	}
+
+	"PrintRoundEndTime"
+	{
+		"#format"	"{1:d},{2:d},{3:d},{4:.2f}"
+		"en"		"Round {orange}{1}{default} ({blue}1st half{default}): {orange}{2} cans {default}in {orange}{3}{default}:{orange}{4}"
+	}
+
+	"PrintRoundEndTimeInHalf"
+	{
+		"#format"	"{1:d},{2:d},{3:d},{4:.2f}"
+		"en"		"Round {orange}{1}{default} ({red}2nd half{default}): {orange}{2} cans {default}in {orange}{3}{default}:{orange}{4}"
+	}
+
+	"RoundEndEarly_Type1"
+	{
+		"en"		"Round Ended : {blue}Survivors{default} reached their {orange}opponents'{default} score with less time used."
+	}
+
+	"RoundEndEarly_Type2"
+	{
+
+		"en"		"Round Ended: {blue}Survivors{default} failed to reach their {orange}opponents'{default} score in the same time."
+	}
+
+	"RoundEndEarly_Type3"
+	{
+		"en"		"Round Ended: {blue}Survivors{default} survived longer, or {red}Infected{default} didn't score last round."
+	}
+}

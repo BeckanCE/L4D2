@@ -1,0 +1,23 @@
+"Phrases"
+{
+	"Tag"
+	{
+		"en"		"[{olive}!{default}]"
+	}
+
+	"Ignite"
+	{
+		"en"		"Gascan out of bound! {orange}Ignited{default}!"
+	}
+
+	"IgniteInLimit"
+	{
+		"#format"	"{1:d},{2:d}"		//1: current burned gascan count. 2: max burned count.
+		"en"		"Gascan out of bound! {orange}Ignited{default}! [{olive}{1}{default} / {orange}{2}{default}]"
+	}
+
+	"ReachedLimit"
+	{
+		"en"		"Out-boundray gascan reached its maxnuim number, {orange}no more{default} gascans will be ignited now!"
+	}
+}

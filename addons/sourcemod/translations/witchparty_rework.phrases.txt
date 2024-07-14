@@ -1,0 +1,31 @@
+"Phrases"
+{
+    "Tag"
+    {
+        "en"    "[{olive}WitchParty{default}]"
+    }
+    "HealthLimitReached"
+    {
+        "en"    "You have reached the health limit."
+    }
+    "Health"
+    {
+        "en"    "Bonus Health: [{blue}+%d{default}] Permanent and [{blue}+%d{default}] Temporary"
+    }
+    "Incapacitated"
+    {
+        "en"    "An {red}incapacitated{default} will respawn {red}%d{default} witch"
+    }
+    "AllWitchesKilled"
+    {
+        "en"    "All witches have been killed."
+    }
+    "WitchSpawned"
+    {
+        "en"    "A witch has spawned."
+    }
+    "TankSpawned"
+    {
+        "en"    "A tank has appeared, {red}killing all the wiches{default}."
+    }
+}
