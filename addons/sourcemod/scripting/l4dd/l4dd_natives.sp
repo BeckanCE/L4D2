@@ -2692,6 +2692,8 @@ int Native_CTerrorPlayer_OnStaggered(Handle plugin, int numParams) // Native "L4
 		GetNativeArray(3, vDir, sizeof(vDir));
 	}
 
+	g_iCancelStagger[a1] = 0;
+
 	//PrintToServer("#### CALL g_hSDK_CTerrorPlayer_OnStaggered");
 	SDKCall(g_hSDK_CTerrorPlayer_OnStaggered, a1, a2, vDir);
 	return 0;
@@ -3696,6 +3698,19 @@ int Native_CTerrorGameRules_GetNumChaptersForMissionAndMode(Handle plugin, int n
 	return 0;
 }
 
+int Native_CTerrorGameRules_IsInIntro(Handle plugin, int numParams) // Native "L4D_IsInIntro"
+{
+	if( g_bLeft4Dead2 )
+	{
+		return GameRules_GetProp("m_bInIntro");
+	}
+	else
+	{
+		ValidateAddress(g_iOff_m_bInIntro, "g_iOff_m_bInIntro");
+		return LoadFromAddress(g_pDirector + view_as<Address>(g_iOff_m_bInIntro + 4), NumberType_Int8);
+	}
+}
+
 int Native_CDirector_IsFinaleEscapeInProgress(Handle plugin, int numParams) // Native "L4D_IsFinaleEscapeInProgress"
 {
 	ValidateNatives(g_hSDK_CDirector_IsFinaleEscapeInProgress, "CDirector::IsFinaleEscapeInProgress");
@@ -3775,7 +3790,7 @@ int Native_GetVersusCampaignScores(Handle plugin, int numParams) // Native "L4D2
 	if( !g_bLeft4Dead2 ) ThrowNativeError(SP_ERROR_NOT_RUNNABLE, NATIVE_UNSUPPORTED2);
 
 	ValidateAddress(g_pVersusMode, "VersusModePtr");
-	ValidateAddress(g_pVersusMode, "m_iCampaignScores");
+	ValidateAddress(g_iOff_m_iCampaignScores, "m_iCampaignScores");
 
 	int vals[2];
 	vals[0] = LoadFromAddress(view_as<Address>(g_pVersusMode + g_iOff_m_iCampaignScores), NumberType_Int32);
@@ -4848,14 +4863,43 @@ int Native_Infected_OnHitByVomitJar(Handle plugin, int numParams) // Native "L4D
 
 int Native_CTerrorPlayer_CancelStagger(Handle plugin, int numParams) // Native "L4D_CancelStagger"
 {
-	ValidateNatives(g_hSDK_CTerrorPlayer_CancelStagger, "CTerrorPlayer::CancelStagger");
+	// ValidateNatives(g_hSDK_CTerrorPlayer_CancelStagger, "CTerrorPlayer::CancelStagger");
 
 	int client = GetNativeCell(1);
 
-	//PrintToServer("#### CALL g_hSDK_CTerrorPlayer_CancelStagger");
+	// if( !g_bLeft4Dead2 && GetClientTeam(client) == 3 )
+	if( GetClientTeam(client) == 3 )
+	{
+		// Hack for L4D1 to stop staggering on SI, the SDKCall does not stop the stagger animation, only resets the variables
+		// Don't know if an L4D1 update broke the SDKCall, nothing has changed with the function itself, I thought it used to work
+		if( g_iCancelStagger[client] == 0 )
+			SDKHook(client, SDKHook_PostThinkPost, OnThinkCancelStagger);
+
+		g_iCancelStagger[client] = 4;
+	}
+
+	// PrintToServer("#### CALL g_hSDK_CTerrorPlayer_CancelStagger");
 	SDKCall(g_hSDK_CTerrorPlayer_CancelStagger, client);
 
 	return 0;
+}
+
+void OnThinkCancelStagger(int client)
+{
+	if( g_iCancelStagger[client] == 0 )
+	{
+		SDKUnhook(client, SDKHook_PostThinkPost, OnThinkCancelStagger);
+	}
+	else
+	{
+		g_iCancelStagger[client]--;
+
+		if( GetClientTeam(client) == 3 && IsPlayerAlive(client) && L4D_IsPlayerStaggering(client) )
+		{
+			SetEntityMoveType(client, MOVETYPE_WALK); // Makes them move less than without this line
+			SetEntPropFloat(client, Prop_Send, "m_flCycle", 1.0); // Skip stumble animation
+		}
+	}
 }
 
 int Native_CTerrorPlayer_FindUseEntity(Handle plugin, int numParams) // Native "L4D_FindUseEntity"
