@@ -3,7 +3,8 @@
 	"sourcesleuth_banreason"
 	{
 		"#format"	""
-		"en"		"Duplicate account"
+		"en"		"Smurf account detected"
+		"es"        "Cuenta smurf detectado"
 	}
 	
 	"sourcesleuth_admintext"
